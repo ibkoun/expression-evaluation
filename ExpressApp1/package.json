@@ -1,0 +1,30 @@
+{
+  "name": "express-app1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "ExpressApp1",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "@types/mathjs": "^6.0.11",
+    "@types/node": "^14.14.22",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "browserify": "^17.0.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "express": "^4.17.1",
+    "mathjs": "^9.0.0",
+    "morgan": "^1.10.0",
+    "pug": "^2.0.4",
+    "serve-favicon": "^2.5.0"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  }
+}
