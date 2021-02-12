@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  script(src="/javascripts/expr_bundle.js")
+  p(id="description") Enter an expression and click the submit button to display it on the screen.
+  form(action="javascript:void(0);", id="form", onsubmit="expr_module.show()")
+    input(type="text", id="input", oninput="expr_module.validate(this)")
+    input(type="submit" id="submit", name="Evaluate")
+  p(id="eval")
+  details(id="details")
+    summary
+        a(id="mathjs" href='https://mathjs.org/docs/reference/functions.html#arithmetic-functions') List of available functions
+    ul(id="functions")
+  ul(id="expressions")
